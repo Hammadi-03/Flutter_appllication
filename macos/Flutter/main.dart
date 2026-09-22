@@ -1,12 +1,18 @@
 void main() {
-  String name = 'Ucup';
-  print('Hello $name. Welcome to Dart!');
+  var colors = ['Red', 'Green', 'Blue'];
 
+  // for-in
+  for (var c in colors) {
+    print(c);
+  }
 
+  // forEach
+  for (var c in colors) {
+    print(c);
+  }
 
-
+  // for loop with index
+  for (int i = 0; i < colors.length; i++) {
+    print('$i: ${colors[i]}');
+  }
 }
-String language = 'Dart';
-int age = 17;
-double score = 95.5;
-bool isActive = true;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/pages/home_pages.dart';
+import 'package:flutter_application_1/pages/profile_pages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,9 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to Flutter!!',
       theme: ThemeData(
+
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomePages(),
+      home: ProfilePage(),
       debugShowCheckedModeBanner: false,
     );
   }
