@@ -132,7 +132,6 @@ class ProfilePage extends StatelessWidget {
             'Junior Flutter Developer',
             style: TextStyle(fontFamily: GoogleFonts.poppins().fontFamily),
           ),
-          Icon(Icons.flutter_dash, size: 25),
 
           SizedBox(height: 8),
 
